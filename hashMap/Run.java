@@ -8,7 +8,7 @@ public class Run {
 
             Set<String> mapKeys = hash.map.keySet(); //print all
             for(String key : mapKeys) {
-                System.out.println(hash.map.get(key));
+                System.out.println(String.format("%s: %s", key, hash.map.get(key)));
             } 
     }
 }
