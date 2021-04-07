@@ -9,5 +9,15 @@ public class Run {
 		System.out.println(String.format("Energy level: %s", harambe.getEnergyLevel()));
 		harambe.climb();
 		System.out.println(String.format("Energy level: %s", harambe.getEnergyLevel()));
+		
+		
+		Bat batman = new Bat();
+		batman.fly();
+		System.out.println(String.format("Energy level: %s", batman.getEnergyLevel()));
+		batman.eatHumans();
+		System.out.println(String.format("Energy level: %s", batman.getEnergyLevel()));
+		batman.attackTown();
+		System.out.println(String.format("Energy level: %s", batman.getEnergyLevel()));
+
 	}
 }
