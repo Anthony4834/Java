@@ -5,6 +5,7 @@ public class Human {
 	private int stealth = 3;
 	private int intel = 3;
 	private int health = 100;
+	
 	private String name;
 	
 	public Human(String name) {
