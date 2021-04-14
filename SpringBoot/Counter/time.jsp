@@ -5,14 +5,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="css/time.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript" src="js/time.js"></script>
 	<meta charset="ISO-8859-1">
 	<title>Home Page</title>
 </head>
 <body>
 	<h1 style="text-align: center">
-		<fmt:formatDate dateStyle="long" type = "time" value = "${ date }" pattern="HH:MM a" />
+		<fmt:formatDate type = "time" value = "${ date }" pattern="hh:mm a" />
 	</h1>
 </body>
 </html>
