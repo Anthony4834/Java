@@ -1,0 +1,8 @@
+h1 {
+	color: green;
+	padding: 10px 20px;
+	background-color: rgb(66, 66, 66);
+	border-radius: 5px;
+	display: inline-block;
+	font-family: Arial, Helvetica;
+}

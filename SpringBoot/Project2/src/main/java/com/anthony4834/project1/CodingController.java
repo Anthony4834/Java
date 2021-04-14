@@ -1,17 +1,31 @@
 package com.anthony4834.project1;
 
+import java.util.Date;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
 public class CodingController {
 	@RequestMapping("/")
-	public String hello(@RequestParam(value = "name", required = false) String name, @RequestParam(value = "lastName", required = false) String last) {
-		String fullName = name != null ? name : "";
-		if(last != null) {
-			fullName += " " + last;
-		}
-		return fullName == null ? "Hello human" : "Hello " + fullName;
+	public String home(Model model) {
+		Date date = new java.util.Date();
+		model.addAttribute("date", date);
+		return "index.jsp";
+	}
+	@RequestMapping("/date")
+	public String date(Model model) {
+		Date date = new java.util.Date();
+		model.addAttribute("date", date);
+		return "date.jsp";
+	}
+	@RequestMapping("/time")
+	public String time(Model model) {
+		Date date = new java.util.Date();
+		model.addAttribute("date", date);
+		return "time.jsp";
 	}
 }
