@@ -1,0 +1,42 @@
+body {
+	background-color: #f0f2f5;
+	font-family: Arial, Helvetica;
+	text-align: center;
+}
+#goldLabel {
+	text-align: left;
+	margin-left: 130px;
+}
+#gold {
+	background-color: white;
+	padding: 5px 20px;
+}
+#cardsWrapper {
+	display: inline-block;
+}
+.card {
+	text-align: center;
+	display: inline-block;
+	background-color: white;
+	padding: 20px 40px;
+	margin: 0px 20px;
+}
+.card button {
+	padding: 5px 10px;
+}
+#log {
+	margin-top: 30px;
+	display: inline-block;
+	width: 70%;
+	text-align: left;
+	background-color: white;
+	border-radius: 10px;
+	height: 500px;
+	overflow-y: scroll;
+}
+#log ul {
+	list-style-type: none;
+}
+#log li {
+	margin: 5px 0px 5px 150px;
+}
