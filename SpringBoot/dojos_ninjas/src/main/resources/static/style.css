@@ -1,0 +1,41 @@
+body {
+	font-family: Arial;
+}
+table {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+table th, table td {
+	border-right: 1px solid black;
+	padding: 5px 10px;
+}
+table th:last-child, table tr td:last-child {
+    border-right: none;
+}
+#head {
+	background-color: rgb(215, 215, 215);
+}
+table tbody tr:nth-child(odd) {
+	background-color: rgb(240, 240, 240);
+}
+label {
+	margin: 10px 0px;
+	display: inline-block;
+	width: 120px;
+}
+#edit, #delete, #deleteWrapper {
+	display: inline-block;
+}
+#edit, #delete {
+	padding: 5px 10px;
+	background-color: #1877f2;
+	border: none;
+	border-radius: 4px;
+	font-size: 12pt;
+	text-decoration: none;
+	color: white;
+}
+#edit:hover, #delete:hover {
+	cursor: pointer;
+	opacity: 0.9;
+}
