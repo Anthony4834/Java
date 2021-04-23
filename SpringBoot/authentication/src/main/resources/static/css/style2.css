@@ -1,0 +1,132 @@
+@charset "ISO-8859-1";
+
+body {
+	margin-top: -5px;
+	background-color:#00bcb4;
+	font-family: Helvetica;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	color: #303030;
+}
+h1, p {
+	font-weight: 100;
+	opacity: 80%;
+}
+#bgImg {
+	height: 102vh;
+	margin-left: -10px;
+}
+#cloudImg {
+	position:absolute;
+	left: -100px;
+	filter: brightness(95%);
+}
+#cloudImg2 {
+	left: 100px;
+	top: 600px;
+	position:absolute;
+	filter: brightness(95%);
+}
+#cloudImg3 {
+	top: 400px;
+	left: -600px;
+	position:absolute;
+	filter: brightness(95%);
+}
+#cloudImg4 {
+	top: 500px;
+	left: -800px;
+	position:absolute;
+	filter: brightness(95%);
+}
+#cloudImg5 {
+	top: 50px;
+	left: -1000px;
+	position:absolute;
+	filter: brightness(95%);
+}
+#registerBox, .inputWrapper img, .inputWrapper label, .inputWrapper p {
+	display:inline-block;
+}
+#registerBox {
+	vertical-align: top;
+	margin-top: 63px;
+	margin-left: 100px;
+}
+#err {
+	text-align: center;
+	color: rgba(200, 0, 0, 0.9);
+	padding: 5px;
+	border: none;
+	background-color: #ffc4c4;
+	border: 1px solid #ff4848;
+	border-radius: 5px;
+}
+.inputWrapper {
+	width: 454px;
+	color: #7A7F8B;
+	padding: 5px;
+	background-color: #f5ece5;
+	border: none;
+	box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.inputWrapper .bigImg {
+	width: 35px;
+	opacity: 60%;
+	vertical-align: -13%;
+	margin-left: 20px;
+}
+.inputWrapper label {
+	display: inline-block;
+	width: 170px;
+	margin-left: 20px;
+}
+.inputWrapper:first-of-type {
+	border-radius: 10px 10px 0px 0px;
+}
+.inputWrapper:last-of-type {
+	border-radius: 0px 0px 10px 10px;
+	margin-bottom: 20px;
+}
+.inputWrapper input {
+	font-size: 13pt;
+	color: rgb(66, 66, 66);
+	border: none;
+	background-color: inherit;
+	margin-left: 20px;
+}
+.inputWrapper input:focus {
+	outline: none;
+}
+.inputWrapper .verif-icon {
+	width: 20px;
+	position: relative;
+	left: 110px;
+	opacity: 0;
+}
+#remember {
+	margin: 9px 0px 0px 20px;
+}
+input[type=submit], button {
+	font-size: 13pt;
+	border: none;
+	background-color: #fd772f;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #f4f4f4;
+	margin-top: 10px;
+}
+#login {
+	background-color: #f5ece5;
+	color: #6d727c;
+}
+input[type=submit]:hover, button:hover {
+	filter: brightness(95%);
+	cursor: pointer;
+}
+input[type=submit]:disabled {
+	filter: brightness(90%);
+}
+input[type=submit]:disabled:hover {
+	cursor: default;
+}
